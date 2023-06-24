@@ -1,4 +1,4 @@
-# #31DaysofCoding of building my current favorite game, Chess
+# git init
 
 ## ⅅ𝔸𝕐 𝕋𝕎𝕆 - Setting up the Project Environment with Vite and PNPM
 
@@ -16,21 +16,29 @@ npm install -g pnpm
 
 2️⃣ Create the Project: Let's create a new project using Vite. In your desired location, execute the following command:
 
+```bash
 pnpx create-vite chess-game --template react-ts
+```
 
 3️⃣ Navigate to the Project: Move into the "chess-game" folder using the command:
 
+```bash
 cd chess-game
+```
 
 4️⃣ Install Dependencies: Install the project dependencies using PNPM by running the command:
 
+```bash
 pnpm install
+```
 
 This will fetch and install all the necessary packages for our chess game project.
 
 5️⃣ Verify Setup: To ensure everything is working correctly, start the development server with the command:
 
+```bash
 pnpm dev
+```
 
 You should see a message indicating that the server is running and that you can access your project at the provided URL.
 
